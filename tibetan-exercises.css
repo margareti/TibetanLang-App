@@ -1,0 +1,93 @@
+.answer {
+	float: right;
+	width: 45%;
+}
+.question {
+	text-align: center;
+	  border-radius: 5px;
+  border: 1px solid #333;
+}
+.empty {
+	padding-bottom: 1.4em;
+}
+
+
+.transparent-white{
+	background-color: rgba(224,255,255, 0.4);
+	padding-top:30px;
+}
+
+
+body.exercises {
+	background: url(ladakh5aaa.png);
+  
+  background-position: 50% 100px;
+  
+  background-repeat: no-repeat;
+  
+  background-color: #9d9f94;
+}
+
+
+
+.exercises .answer label{
+	display:block;
+	margin-bottom:10px;
+}
+.header-text {
+	font-family:Arial, sans-serif;
+}
+.answer-wrapper .btn {
+  padding: 10px 35px;
+  float: right;
+  background: #fff;
+  color: #333;
+  border-radius: 2px;
+  border: 0;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), 0 1px 2px rgba(0,0,0,0.125);
+  font-size: 14px;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.45);
+  font-weight: bold;
+ 
+}
+.answer-wrapper .btn:hover{
+	background:linear-gradient(#fff, #999);
+
+}
+.navbar-default{
+	background:#333;
+	border-color:#666;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#fff;
+}
+
+.q {
+	margin-bottom:30px;
+}
+.exercises .main-header{
+	margin-bottom:30px;
+}
+
+@media (max-width:479px){
+	.exercises .flag{
+		width:70px;
+		float:none;
+	}
+}
+
+.exercises footer {
+	margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+body.transparent-white{
+	background-color:rgba(245,245,245, 0.4);
+}

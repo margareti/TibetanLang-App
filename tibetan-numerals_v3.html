@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+   
+	<link rel="stylesheet" href="style.css" type="text">
+	<link href='http://fonts.googleapis.com/css?family=Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<header class="main-header container clearfix">
+	<img class="flag" src="tibetan-flag.jpg">
+
+<h1 class="header-text">
+	
+		
+	
+	Learn Tibetan</h1>
+	<h2>Lesson 1. Tibetan Numerals</h2>
+</header>
+
+	
+
+		
+	<section class="container clearfix calculator">	
+	<div class="third">
+    <div class="third-text">
+    	<p>1</p>
+    	<p>One</p>
+    </div>
+    <div class="third-symbol">
+    	<p>&#x0f21;</p>
+    	<p class="third-symbol-desc">&#3906;&#3909;&#3954;&#3906;&#3851; [chik]</p>
+    	<p class="third-symbol-desc"></p>
+    </div>	
+</div>
+<div class="third">
+	<div class="third-text">
+    	<p>2</p>
+    	<p>Two</p>
+    </div>
+    <div class="third-symbol">
+	<p>&#x0f22;</p>
+	<p class="third-symbol-desc">&#3906;&#3913;&#3954;&#3942;&#3851; [nyi]</p>
+    <p class="third-symbol-desc"></p>
+	</div>
+</div>
+<div class="third">
+	<div class="third-text">
+    	<p>3</p>
+    	<p>Three</p>
+    </div>
+    <div class="third-symbol">
+    	<p>&#x0f23;</p>
+		<p class="third-symbol-desc">&#3906;&#3942;&#3956;&#3928;&#3851; [sum]</p>
+		<p class="third-symbol-desc"></p>
+	</div>		
+</div>
+<div class="third">
+	<div class="third-text">
+    	<p>4</p>
+    	<p>Four</p>
+    </div>
+    <div class="third-symbol">
+    	<p>&#x0f24;</p>
+	<p class="third-symbol-desc">&#3926;&#3934;&#3954;&#3851; [schi]</p>
+	<p class="third-symbol-desc"></p>
+    </div>
+</div>
+	<div class="third">
+	<div class="third-text">
+    	<p>5</p>
+    	<p>Five</p>
+    </div>
+	<div class="third-symbol">
+		<p>&#x0f25;</p>
+    <p class="third-symbol-desc">&#3939;&#3988;&#3851; [`nga]</p>
+    <p class="third-symbol-desc"></p>
+	</div>
+</div>
+<div class="third">
+	<div class="third-text">
+    	<p>6</p>
+    	<p>Six</p>
+    </div>
+	<div class="third-symbol">
+		<p>&#x0f26;</p>
+    <p class="third-symbol-desc">&#3921;&#4018;&#3956;&#3906;&#3851; [dr`uk]</p>
+    <p class="third-symbol-desc"></p>
+	</div>
+</div>
+<div class="third">
+	<div class="third-text">
+    	<p>7</p>
+    	<p>Seven</p>
+    </div>
+	<div class="third-symbol">
+		<p>&#x0f27;</p>
+    <p class="third-symbol-desc">&#3926;&#3921;&#3956;&#3923;&#3851; [dun]</p>
+    <p class="third-symbol-desc"></p>
+    </div>
+</div>
+<div class="third">
+	<div class="third-text">
+    	<p>8</p>
+    	<p>Eight</p>
+    </div>
+	<div class="third-symbol">
+		<p>&#x0f28;</p>
+		<p class="third-symbol-desc">&#3926;&#3938;&#3986;&#4017;&#3921;&#3851; [gya]</p>
+    	<p class="third-symbol-desc"></p>
+    </div>	
+</div>
+<div class="third">
+	<div class="third-text">
+    	<p>9</p>
+    	<p>Nine</p>
+    </div>
+	<div class="third-symbol">
+		<p>&#x0f29;</p>
+    <p class="third-symbol-desc">&#3921;&#3906;&#3956;&#3851; [gu]</p>
+    <p class="third-symbol-desc"></p>
+    </div>
+</div>
+<div class="one">
+	<div class="third-text">
+    	<p>0</p>
+    	<p>Zero</p>
+    </div>
+    <div class="third-symbol">
+    	<p>&#x0f20;</p>
+    <p class="third-symbol-desc">&#3904;&#4019;&#3921;&#4019;&#3904;&#3964;&#3946;&#3851; [le-kor]</p>
+    <p class="third-symbol-desc"></p>
+    </div>
+</div>
+</section>
+
+<div class="overlay">
+	<div class="container"><i class="fa fa-times"></i>
+	</div>
+	<div class="container overlay-container">
+	</div>
+</div>
+<footer class="container">
+
+<p class="copyright">Brought to you by <a href="#">Plus <span class="copyright-pi">&pi;</span> </a></p>
+<p class="copyright">&copy;2015</p> 
+</footer>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>
+$( document ).ready(function() {
+
+
+   $('.third, .one').click(function(){
+   	var _this = $(this).html();
+
+   	 $('body, html').animate({
+        scrollTop: $(".calculator").offset().top});
+        
+
+   	$('.overlay').addClass('show');
+   	$('.overlay .overlay-container').html(_this).find('.third-symbol-desc, .third-text, .third-symbol').addClass('show');
+
+   	$('.overlay').click( function(){
+   		if ($('.overlay').hasClass('show')){
+		$('.overlay').removeClass('show');
+	}
+   	
+   	})
+
+   });
+});
+</script>
+</body>
+</html>

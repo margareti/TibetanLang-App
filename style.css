@@ -1,0 +1,202 @@
+body, html {
+	padding:0;
+	margin:0;
+	font-family: 'Courgette', cursive;
+}
+.third, .one {
+	background:rgba(224,255,255, 0.5);
+	float:left;
+	
+	padding: 20px 0;
+	min-height:30px;
+	font-size:5em;
+}
+
+.third {
+	
+	width:31%;
+	margin-right:2%;
+	margin-bottom:2%;
+	
+}
+.third:hover, .one:hover{
+background:rgba(173,216,230, 0.5);
+
+}
+body {
+	background:url(tibet-mountains-bg.jpg) 50% 50% no-repeat fixed;
+	background-position:fixed;
+	background-size:350%;
+position:relative;
+}
+.one {
+	
+	width:97%;
+
+}
+.calculator {
+	text-align:center;
+	padding-bottom:30px;
+	padding-top:10px;
+	font-family:Roboto;
+}
+.main-header{
+	
+	text-align:center;
+	
+}
+.flag{
+width:160px;
+}
+
+.copyright-pi{
+	font-size:21px;
+}
+.copyright {
+	text-align:center;
+	color:#fafafa;
+	text-shadow: 2px 2px 5px #000;
+	z-index:1000;
+	position:relative;
+
+}
+.third-text, .third-symbol-desc {
+	display:none;
+}
+footer {
+	height:70px;
+}
+footer a {
+	color:#fafafa;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.overlay {
+	
+
+	display:none;
+	
+	width:64%;
+	
+	height:148px;
+	float:left;
+	font-size:1.7em;
+	text-align:left;
+}
+.fa {
+	float:right;
+	padding-right:2%;
+	padding-top:1%;
+}
+.overlay.show{
+	background:#4169E1;
+	color:white;
+	font-family:Roboto;
+}
+
+.show {
+	display:block;
+}
+.third-text.show{
+	padding-top: 10px;
+	padding-left: 4%;
+}
+.third-text.show, .third-symbol.show {
+	float:left;
+	width:31%;
+}
+.third-symbol.show {
+	float:left;
+	width:45%;
+}
+.third-symbol p, .third-text p {
+	margin:0;
+}
+.one-third{
+	width:31%;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+/*.third.active-button:hover, .one.active-button:hover{
+	background:rgba(65,105,225, 0.7);
+} */
+.active-button, .active-button:hover {
+	background:#fff;
+}
+
+
+/*-------------------Layout-------------------*/
+.container {
+	width:600px;
+	margin:0 auto;
+	background:transparent;
+}
+.clearfix:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+@import url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
+
+@media(max-width:600px) {
+	.container {
+		width:100%;
+		padding-left:3%;
+		box-sizing:border-box;
+	}
+	.exercises {
+		padding-left:10px;
+		padding-right:10px;
+
+	}
+	
+
+}
+@media (max-width:479px){
+	.flag{
+		width:70px;
+		
+	}
+	header h2 {
+		margin-top:0;
+	}
+	
+	.answer .btn {
+		margin-top:20px;
+	}
+	.calculator{
+		padding-top:0;
+	}
+	.third, .one {
+		font-size:3em;
+	}
+	.overlay.show{
+		height:104px;
+		font-size:1.3em;
+	}
+}
+
+@media (min-width:361px){
+	.overlay{
+		bottom:10%;
+	}
+}
+@media (min-width:600px){
+	.overlay{
+		bottom:7%;
+	}
+}
+@media (min-width:950px){
+	body {
+		background-size:150%;
+	}
+}
+.numerals {
+	color:#000;
+}
+.copyright a:hover{
+	text-decoration:none;
+	color:inherit;
+}

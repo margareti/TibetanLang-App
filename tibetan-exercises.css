@@ -18,14 +18,20 @@
 }
 
 
-body.exercises {
+.overlay-bg {
 	background: url(ladakh5aaa.png);
   
   background-position: 50% 100px;
   
   background-repeat: no-repeat;
+  z-index:-1;
+
   
-  background-color: #9d9f94;
+}
+body {
+background: #9d9f94;
+
+
 }
 
 

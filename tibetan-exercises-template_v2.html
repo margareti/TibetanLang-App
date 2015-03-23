@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text">
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <meta name="viewport" content="width=device-width">
+   <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+   <link rel="shortcut icon" href="favicon-white.png" />
+	<link rel="stylesheet" href="style.css" type="text">
+	<link rel="stylesheet" href="tibetan-exercises.css" type="text">
+	<link href='http://fonts.googleapis.com/css?family=Courgette&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+<body class="exercises">
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Home</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">Link</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Numerals <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#">Numerals 1-10</a></li>
+		            <li><a href="#">Exercises 1-10</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">Numerals 11-20</a></li>
+		            
+		            <li><a href="#">Exercises 11-20</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Alphabet <span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="#">Letters ka-ga</a></li>
+		            <li><a href="#">Exercises ka-ga</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">Numerals 11-20</a></li>
+		            
+		            <li><a href="#">Exercises 11-20</a></li>
+		            <li class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+	  		</div>
+	  	</div>
+	</nav>
+	<div class="container">
+<header class="main-header clearfix">
+	<img class="flag" src="tibetan-flag.jpg">
+
+<h1 class="header-text">
+	<section class="clearfix ">	
+
+		
+	
+	Learn Tibetan</h1>
+	<h2>Lesson 2. Tibetan Numerals</h2>
+</header>
+
+</section>
+<section class="container answer-wrapper clearfix">
+	<form action="/" method="post" id="quiz">
+		<section class="clearfix q">
+			<div class="question third third-symbol">&#x0f22;
+			</div>
+			<div class="answer clearfix">
+				<label>
+					<input type="radio" name="number" value="x">0 (zero)
+				</label>
+				<label>
+					<input type="radio" name="number" value="two">2 (two)
+				</label>
+				<label>
+					<input type="radio" name="number" value="six">6 (six)
+				</label>
+				<label>
+					<input type="radio" name="number" value="one">1 (one)
+				</label>
+			</div>
+		</section>
+		<section class="clearfix q">
+			<div class="question third third-symbol">&#x0f22;
+			</div>
+			<div class="answer">
+				<label>
+					<input type="radio" name="number2" value="zero">0 (zero)
+				</label>
+				<label>
+					<input type="radio" name="number2" value="x">2 (two)
+				</label>
+				<label>
+					<input type="radio" name="number2" value="six">6 (six)
+				</label>
+				<label>
+					<input type="radio" name="number2" value="one">1 (one)
+				</label>
+			</div>
+		</section>
+		<section class="clearfix q">
+			<div class="question third third-symbol">&#x0f22;
+			</div>
+			<div class="answer">
+				<label>
+					<input type="radio" name="number3" value="zero">0 (zero)
+				</label>
+				<label>
+					<input type="radio" name="number3" value="two">2 (two)
+				</label>
+				<label>
+					<input type="radio" name="number3" value="x">6 (six)
+				</label>
+				<label>
+					<input type="radio" name="number3" value="one">1 (one)
+				</label>
+			</div>
+		</section>
+<input type="submit" id="btn" class="btn btn-submit" value="Submit">
+</section>
+
+
+<footer class="container">
+
+<p class="copyright">Brought to you by <a href="#">Plus <span class="copyright-pi">&pi;</span> </a></p>
+<p class="copyright">&copy;2015</p> 
+</footer>
+</div>
+<div class="overlay-bg"></div>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<style>
+body{
+color:#000;
+
+}
+.rightans{
+border:3px solid #0f0;
+background-color: #afa;
+border-radius:4px;
+}
+.wrongans{
+border:3px solid #f00;
+background-color: #faa;
+border-radius:4px;
+}
+@-webkit-keyframes fade-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.overlay-bg {
+ /*
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  opacity: 0;
+  
+  -webkit-animation-name: fade-out;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+  
+}
+
+.overlay-bg.invisible {
+  opacity: 0;
+}
+</style>
+<script>
+	$(document).ready(function() {
+  $('.overlay-bg').on('webkitAnimationEnd', function(e) {
+    $(this).addClass('invisible');
+  });
+});
+</script>
+<script>
+'use strict';
+
+window.onload = init;
+
+function init() {
+document.getElementById('btn').onclick = validate;
+
+}
+
+function validate(ev) {
+	ev.preventDefault();
+var radios = document.getElementById("quiz").getElementsByTagName("INPUT");
+var right = 0;
+var wrong = 0; 
+for(var i=0, len=radios.length ; i<len ; i++) {
+  if(radios[i].value == "x") {
+    if(radios[i].checked == true){
+      right++;
+      radios[i].parentNode.parentNode.className = 'rightans answer';
+    }else{
+      wrong++;
+      radios[i].parentNode.parentNode.className = 'wrongans answer';
+    }
+  }
+} 
+var pcnt = (100*right/(wrong+right)).toFixed(1);
+document.getElementById("score").innerHTML = 'Correct: '+ right +'<br/>Incorrect: ' + wrong +'<br/>Percent Correct: ' + pcnt +'%';
+}
+
+function clear(){
+var radios = document.getElementById("quiz").getElementsByTagName("INPUT");
+for(var i=0, len=radios.length ; i<len ; i++) {
+radios[i].checked = false;
+if (radios[i].value == "x"){
+ radios[i].parentNode.parentNode.className = '';
+}
+}
+document.getElementById("score").innerHTML = '';
+}
+</script>
+
+</body>
+</html>

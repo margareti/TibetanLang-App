@@ -1,0 +1,27 @@
+.alphabet {
+	$primary: #111;
+
+
+	color:$primary;
+
+	.left-panel{
+		width:30%;
+		float:left;
+		box-sizing:border-box;
+	}
+	.left-panel .third {
+		width:100%;
+	}
+	.overlay {
+		margin-left:1%;
+		width:69%;
+		float:left;
+		height:569px;
+		box-sizing:border-box;
+	}
+	@media (max-width:479px){
+		.overlay {
+			height:406px;
+		}
+	}
+}

@@ -24,7 +24,7 @@ background:rgba(173,216,230, 0.5);
 
 }
 body {
-	background:url(tibet-mountains-bg.jpg) 50% 50% no-repeat fixed;
+	background:url(img/tibet-mountains-bg.jpg) 50% 50% no-repeat fixed;
 	background-position:fixed;
 	background-size:350%;
 position:relative;

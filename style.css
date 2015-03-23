@@ -79,7 +79,6 @@ footer a {
 	
 	width:64%;
 	
-	height:148px;
 	float:left;
 	font-size:1.7em;
 	text-align:left;
@@ -107,8 +106,10 @@ footer a {
 	width:31%;
 }
 .third-symbol.show {
-	float:left;
-	width:45%;
+	float: left;
+  width: 53%;
+  padding-top: 5px;
+  padding-left: 10px;
 }
 .third-symbol p, .third-text p {
 	margin:0;

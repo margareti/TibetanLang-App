@@ -25,3 +25,38 @@
 		}
 	}
 }
+.exercises {
+	.material-links {
+		margin-top:30px;
+
+		.btn.forward {
+			margin-right:-10px;
+			float:right;
+		}
+		.btn.back {
+			margin-left:-10px;
+		}
+	}
+}
+.numerals {
+	.overlay {
+		height:140px;
+	}
+	.third, .one {
+		cursor:pointer;
+	}
+	.material-links {
+		margin-top:20px;
+		margin-bottom:20px;
+
+		.btn {
+			background:#fff;
+			float:right;
+		}
+	}
+	@media (max-width: 479px) {
+		.overlay.show {
+		  height: 100px;
+		}
+	}
+}
